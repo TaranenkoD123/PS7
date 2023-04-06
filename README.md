@@ -5,20 +5,20 @@ Python Django Parser
 
 Требования:
 
-Python==3.9.6
-asgiref==3.6.0
-beautifulsoup4==4.12.1
-bs4==0.0.1
-certifi==2022.12.7
-charset-normalizer==3.1.0
-Django==4.2
-idna==3.4
-Pillow==9.5.0
-requests==2.28.2
-soupsieve==2.4
-sqlparse==0.4.3
-tzdata==2023.3
-urllib3==1.26.15
+1. Python==3.9.6
+2. asgiref==3.6.0
+3. beautifulsoup4==4.12.1
+4. bs4==0.0.1
+5. certifi==2022.12.7
+6. charset-normalizer==3.1.0
+7. Django==4.2
+8. idna==3.4
+9. Pillow==9.5.0
+10. requests==2.28.2
+11. soupsieve==2.4
+12. sqlparse==0.4.3
+13. tzdata==2023.3
+14. urllib3==1.26.15
 
 Работа приложения:
 
