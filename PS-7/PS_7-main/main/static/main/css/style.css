@@ -1,0 +1,77 @@
+body {
+    background: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(29, 29, 29);
+    text-shadow: 1px 1px 1px rgb(37, 37, 37);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(49, 40, 167);
+    padding: 10px;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color:rgb(49, 40, 167);
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+    border-radius: 20px;
+}
+
+form {
+    text-align: center;
+    margin: 30px;
+}
+
+.navbar {
+    margin: 150px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-item {
+    padding: 0 30px;
+}
+
+.content {
+    float: center;
+    color: rgb(49, 40, 167);
+    align-items: center;
+}
+
+.content h1 {
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 250px;
+}
+
+.home p {
+    /* width: 50%;
+    margin: auto; */
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 500px;
+    
+}
+
+.contacts {
+    text-align: center;
+}
+
+.contacts ul {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+.parser {
+    text-align: center;
+    padding: 0 500px
+}

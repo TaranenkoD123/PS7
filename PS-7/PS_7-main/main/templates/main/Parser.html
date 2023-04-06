@@ -1,0 +1,27 @@
+{% extends 'main\Base.html' %}
+
+{% block title %} Парсер {% endblock %}
+
+{% block content %} 
+<div class="content parser">
+    <h1>Парсер</h1>
+    <p>Парсер для поиска товаров по указанному бренду. Введите нужный бренд, а затем нажмите кнопку "Обработать" - после этого парсер выдаст все варианты, с таким же брендом. Парсер выводит: бренд, название товара со ссылкой на него и ссылку на изображение.</p>
+
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="text" name="Key">
+        <button type="submit">Обработать</button>
+    </form> 
+
+    {% for el in answer %}
+        {% if el.name != '' %}
+            <p>Бренд: '{{el.name_brand}}';</p>
+            <p>Название: <a href={{el.link}}>'{{el.name}}'</a>;</p>
+            <p><a href={{el.img}}>Изображение</a></p>
+            <br>
+        {% endif %}
+    {% endfor %}
+
+</div>
+{% endblock %}
